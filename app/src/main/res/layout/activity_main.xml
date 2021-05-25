@@ -50,18 +50,21 @@
         android:layout_gravity="center_horizontal"
         android:orientation="horizontal">
         <Button
+                    tools:ignore="ButtonStyle"
             android:id="@+id/true_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/true_button" />
 
         <Button
+                    tools:ignore="ButtonStyle"
             android:id="@+id/neutral_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:text="@string/neutral_button" />
         <Button
+                    tools:ignore="ButtonStyle"
             android:id="@+id/false_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -95,24 +98,28 @@
                 android:layout_gravity="right">
 
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/bclear_button"
                     android:backgroundTint="@color/green"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/bclear_button" />
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/bsin_button"
                     android:backgroundTint="@color/purp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/bsin_button" />
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/bcos_button"
                     android:backgroundTint="@color/purp"
                     android:layout_width="63dp"
                     android:layout_height="wrap_content"
                     android:text="@string/bcos_button" />
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/bplus_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -127,6 +134,7 @@
                 android:layout_gravity="left">
 
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/b7_button"
                     android:backgroundTint="@color/black"
                     android:layout_width="wrap_content"
@@ -134,18 +142,21 @@
                     android:text="@string/b7_button" />
 
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/b8_button"
                     android:backgroundTint="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/b8_button" />
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/b9_button"
                     android:backgroundTint="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/b9_button" />
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/bmoins_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -158,6 +169,7 @@
                 android:layout_gravity="left">
 
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/b4_button"
                     android:backgroundTint="@color/black"
                     android:layout_width="270px"
@@ -165,6 +177,7 @@
                     android:text="@string/b4_button" />
 
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/b5_button"
                     android:backgroundTint="@color/black"
                     android:layout_width="270px"
@@ -172,12 +185,14 @@
                     android:text="@string/b5_button" />
 
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/b6_button"
                     android:backgroundTint="@color/black"
                     android:layout_width="270px"
                     android:layout_height="wrap_content"
                     android:text="@string/b6_button" />
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/bmult_button"
                     android:layout_width="270px"
                     android:layout_height="wrap_content"
@@ -189,6 +204,7 @@
                 android:layout_gravity="left">
 
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/b1_button"
                     android:backgroundTint="@color/black"
                     android:layout_width="wrap_content"
@@ -196,6 +212,7 @@
                     android:text="@string/b1_button" />
 
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/b2_button"
                     android:backgroundTint="@color/black"
                     android:layout_width="wrap_content"
@@ -203,12 +220,14 @@
                     android:text="@string/b2_button" />
 
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/b3_button"
                     android:backgroundTint="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/b3_button" />
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/bdiv_button"
                     android:layout_width="270px"
                     android:layout_height="wrap_content"
@@ -220,22 +239,26 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal">
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/b0_button"
                     android:backgroundTint="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/b0_button" />
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/bpoint_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_column="2"
                     android:text="@string/bpoint_button" />
                 <Button
+                    tools:ignore="ButtonStyle"
                     android:id="@+id/begal_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/begal_button" />
+                    android:text="@string/begal_button"
+                     />
             </TableRow>
         </TableLayout>
     </LinearLayout>
