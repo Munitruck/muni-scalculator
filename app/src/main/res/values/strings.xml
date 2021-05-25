@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">Calcultor</string>
+    <string name="question_text">0</string>
+    <string name="bmoins_button">-</string>
+    <string name="bplus_button">+</string>
+    <string name="bmult_button">*</string>
+    <string name="bdiv_button">/</string>
+    <string name="bsin_button">sin</string>
+    <string name="bcos_button">cos</string>
+    <string name="bpoint_button">.</string>
+    <string name="begal_button">=</string>
+    <string name="bclear_button">C</string>
+    <string name="b9_button">9</string>
+    <string name="b8_button">8</string>
+    <string name="b7_button">7</string>
+    <string name="b6_button">6</string>
+    <string name="b5_button">5</string>
+    <string name="b4_button">4</string>
+    <string name="b3_button">3</string>
+    <string name="b2_button">2</string>
+    <string name="b1_button">1</string>
+    <string name="b0_button">0</string>
+</resources>
