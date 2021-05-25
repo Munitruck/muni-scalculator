@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:context=".MainActivity">
+
+    <!-- for the text -->
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">-->
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:textSize="18sp"
+            android:text="@string/question_text1"
+            android:id="@+id/displayTextPrimary"/>-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+                    tools:ignore="ButtonStyle"
+            android:id="@+id/true_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/true_button" />
+
+        <Button
+                    tools:ignore="ButtonStyle"
+            android:id="@+id/neutral_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/neutral_button" />
+        <Button
+                    tools:ignore="ButtonStyle"
+            android:id="@+id/false_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/false_button" />
+    </LinearLayout>-->
+    <TextView
+        android:id="@+id/displayText"
+        android:layout_width="1080px"
+        android:layout_height="225dp"
+         android:layout_gravity="right"
+        android:padding="24dp"
+        android:text="@string/question_text"
+        android:textSize="150sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="373dp"
+        android:layout_gravity="left"
+        android:orientation="horizontal">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:layout_gravity="right">
+
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/bclear_button"
+                    android:backgroundTint="@color/green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bclear_button" />
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/bsin_button"
+                    android:backgroundTint="@color/purp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bsin_button" />
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/bcos_button"
+                    android:backgroundTint="@color/purp"
+                    android:layout_width="63dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bcos_button" />
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/bplus_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bplus_button" />
+
+            </TableRow>
+
+<!--            shiffre=======================================-->
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left">
+
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/b7_button"
+                    android:backgroundTint="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/b7_button" />
+
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/b8_button"
+                    android:backgroundTint="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/b8_button" />
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/b9_button"
+                    android:backgroundTint="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/b9_button" />
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/bmoins_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bmoins_button" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left">
+
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/b4_button"
+                    android:backgroundTint="@color/black"
+                    android:layout_width="270px"
+                    android:layout_height="wrap_content"
+                    android:text="@string/b4_button" />
+
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/b5_button"
+                    android:backgroundTint="@color/black"
+                    android:layout_width="270px"
+                    android:layout_height="wrap_content"
+                    android:text="@string/b5_button" />
+
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/b6_button"
+                    android:backgroundTint="@color/black"
+                    android:layout_width="270px"
+                    android:layout_height="wrap_content"
+                    android:text="@string/b6_button" />
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/bmult_button"
+                    android:layout_width="270px"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bmult_button" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left">
+
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/b1_button"
+                    android:backgroundTint="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/b1_button" />
+
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/b2_button"
+                    android:backgroundTint="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/b2_button" />
+
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/b3_button"
+                    android:backgroundTint="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/b3_button" />
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/bdiv_button"
+                    android:layout_width="270px"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bdiv_button" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/b0_button"
+                    android:backgroundTint="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/b0_button" />
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/bpoint_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:text="@string/bpoint_button" />
+                <Button
+                    tools:ignore="ButtonStyle"
+                    android:id="@+id/begal_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/begal_button"
+                     />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>
